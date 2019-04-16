@@ -2,8 +2,9 @@
 using namespace std;
 
 void pot(int x, int y){
+    int aux=x;
     for (int i=1; i<y; i++){
-        x=x*x;
+        x=x*aux;
     }
 
     cout << "Saida: " << x;
